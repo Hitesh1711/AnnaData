@@ -8,6 +8,8 @@ let session = require("express-session");
 const authRoutes = require("./routes/auth");
 const productRoutes = require("./routes/product");
 
+
+
 //app
 const app = express();
 app.use(express.json({ limit: "30mb", extended: true }));
@@ -25,7 +27,7 @@ app.use(
 const accountSid = process.env.ACC_SID;
 const authToken = process.env.AUTH_TOKEN;
 const twilio = require("twilio");
-const client = new twilio(accountSid, authToken);
+const client = new twilio('ACd951ea3265e72eafe12d31813526f910', '7259ac42b2ad4a4a2c338e7528fc5774');
 
 const request = require("request");
 

@@ -133,7 +133,6 @@ export function Navbar(props) {
             >
               <AnchorLink>Weather </AnchorLink>
             </Link>
-            {/*
             <Marginer direction="horizontal" margin={15} />
             <Link
               to={{ pathname: "https://www.covid19india.org/" }}
@@ -141,7 +140,7 @@ export function Navbar(props) {
               style={{ textDecoration: "none" }}
             >
             <AnchorLink>Covid Update</AnchorLink> 
-            </Link> */}
+            </Link>
             <Marginer direction="horizontal" margin={15} />
             <Link
               to={{ pathname: "/helpline" }}

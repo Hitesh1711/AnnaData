@@ -61,8 +61,9 @@ export function TopSection(props) {
           <LogoContainer>
             <Logo logosize={60} textsize={55} />
             <Marginer direction="vertical" margin={8} />
-            <SloganText>Caring Fields, Caring People,</SloganText>
-            <SloganText>Caring Lives</SloganText>
+            <SloganText>Producing More. Conserving More.
+</SloganText>
+            <SloganText> Improving Lives.</SloganText>
             <Marginer direction="vertical" margin={12} />
             {token ? (
               <div />

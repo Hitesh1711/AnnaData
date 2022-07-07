@@ -20,7 +20,7 @@ function Prices() {
     axios
       .get(
         //"https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070?api-key=579b464db66ec23bdd0000014b069bec6c7242f25ac7e249f759b6e3%20&format=json&offset=4581&limit=35&filters=district%20%3D%3D%20%22Jodhpur%22"
-        "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070?api-key=579b464db66ec23bdd000001c13427db8ef04054772247e94c7cfa13&format=json&offset=0&limit=100"
+        "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070?api-key=579b464db66ec23bdd000001c13427db8ef04054772247e94c7cfa13&format=json&offset=4998&limit=50"
       )
       .then((res) => {
         setCrops(res.data.records);

@@ -5,7 +5,7 @@ import LearningOptions from "./components/UpdateOptions/UpdateOptions";
 import LinkList from "./components/LinkList/LinkList";
 
 const config = {
-  botName: "Krishak",
+  botName: "AnnaData",
   initialMessages: [
     createChatBotMessage(
       "Hi, I'm here to help.Please fill feadback form if you are facing any issue with our website",
@@ -99,7 +99,7 @@ const config = {
         options: [
           {
             text: "Feedback Form",
-            url: "https://forms.gle/CSfPVXhYkd1Cx5As5",
+            url: "https://forms.gle/25sU2R6x9RmE4aY88",
             id: 1,
           },
         ],
